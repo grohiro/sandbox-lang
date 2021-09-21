@@ -16,3 +16,7 @@ for (let status of [OK, READY, STOP]) {
     console.log('STOP');
   }
 }
+
+console.log(OK);
+console.log(String(OK));
+
