@@ -1,0 +1,31 @@
+{
+  "ts-node": {
+    "cwd": "/Users/koudai/sandbox/sandbox-lang/20211108_ts-node",
+    "projectSearchDir": "/Users/koudai/sandbox/sandbox-lang/20211108_ts-node",
+    "require": []
+  },
+  "compilerOptions": {
+    "lib": [
+      "es2019",
+      "es2020.promise",
+      "es2020.bigint",
+      "es2020.string",
+      "dom"
+    ],
+    "module": "commonjs",
+    "target": "es2019",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "node"
+    ],
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": true,
+    "declaration": false,
+    "noEmit": false,
+    "outDir": "./.ts-node"
+  }
+}
